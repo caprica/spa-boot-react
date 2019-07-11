@@ -9,11 +9,6 @@ import uk.co.caprica.spa.config.SpaWebAppConfiguration;
 @SpringBootApplication
 public class Application {
 
-    @GetMapping("/")
-    String index() {
-        return "Fanny!";
-    }
-
     public static void main(String[] args) {
         SpringApplication.run(Application.class, args);
     }
